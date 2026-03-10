@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <group name="General">
+    <entry name="zeroColor" type="String">
+      <default>#b00020</default>
+    </entry>
+    <entry name="maxColor" type="String">
+      <default>#00c853</default>
+    </entry>
+    <entry name="pollMs" type="Int">
+      <default>20</default>
+      <min>16</min>
+      <max>1000</max>
+    </entry>
+    <entry name="sensitivity" type="Double">
+      <default>80.0</default>
+      <min>1.0</min>
+      <max>500.0</max>
+    </entry>
+    <entry name="noiseFloor" type="Double">
+      <default>0.0</default>
+      <min>0.0</min>
+      <max>0.05</max>
+    </entry>
+  </group>
+</kcfg>
