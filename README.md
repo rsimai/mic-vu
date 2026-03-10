@@ -1,16 +1,16 @@
 # Mic VU Plasmoid (Plasma 6)
 
+Ever forgot to turn on the mic for a call? Or even worse, forgot to turn it off?
 Mic VU is a KDE Plasma 6 plasmoid that shows live microphone activity and color
 transitions from silent to noisy.
 
-This project is plasmoid-only and uses no Python or virtual environment.
+Tested on openSUSE Leap 16 with KDE 6. 
 
 ## Features
 
 - live microphone level indicator in panel
 - configurable silent and noisy colors
-- configurable polling interval
-- version stamp in tooltip
+- configurable polling interval, sensitivity and noise floor
 
 ## Architecture
 
@@ -48,7 +48,7 @@ Then add widget:
 If updates do not appear immediately:
 
 ```bash
-kquitapp6 plasmashell && kstart6 plasmashell
+kquitapp6 plasmashell && kstart plasmashell
 ```
 
 ## Behavior
